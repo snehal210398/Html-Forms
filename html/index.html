@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="../css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main">
+        <h2>Add/Update Data</h2>
+        <hr>&nbsp;
+      <form>
+        <div class="form-main-block">
+          <div class="block-1">
+            <label for="gstno">GST No:</label>
+            <input type="text" name="gstno" placeholder="Enter GST No" />
+            <input type="checkbox" name="gstno" />
+            <br /><br />
+            <label for="fname">Name:</label>
+            <input type="text" name="fname" placeholder="Enter Name" />
+            <br /><br />
+            <label for="country">Country:</label>
+            <input list="country" name="country" placeholder="Select Country" />
+            <datalist id="country">
+              <option value="india"></option>
+              <option value="pakistan"></option>
+              <option value="srilanka"></option>
+              <option value="afhganistan"></option>
+              <option value="china"></option>
+              <option value="nepal"></option>
+              <option value="bhutan"></option>
+              <option value="mayanmar"></option>
+            </datalist>
+
+            <br /><br /><br /><br /><br /><br />
+            <label for="latitude">Latitude</label>
+            <input type="text" name="lati" placeholder="Enter Latitude" />
+          </div>
+          <div class="block-2">
+            <label for="gstno">PAN No:</label>
+            <input type="text" name="gstno" placeholder="Enter PAN No" />
+            <br /><br />
+            <label for="fname">Address:</label>
+            <textarea name="message" rows="3" placeholder="Enter Address"></textarea>
+            <br /><br />
+            <label for="state">State:</label>
+            <input list="State" name="State" placeholder="Select State" />
+            <datalist id="State">
+              <option value="Maharashtra"></option>
+              <option value="gujrat"></option>
+              <option value="M.P"></option>
+              <option value="rajhashtan"></option>
+              <option value="karnatak"></option>
+              <option value="tamil nadu"></option>
+              <option value="j&k"></option>
+              <option value="sikkim"></option>
+            </datalist>
+            <br><br>
+            <label for="mobileno">Mobile No:</label>
+            <input type="number" name="lati" placeholder="Enter Mobile No" />
+
+            <br /><br />
+            <label for="longitude">longitude:</label>
+            <input type="text" name="longi" placeholder="Enter longitude" />
+          </div>
+          <div class="block-3">
+            <label for="code">Code</label>
+            <input type="text" name="code" placeholder="Enter Code" />
+            <br><br>
+            <label for="pincode">pincode</label>
+            <input type="text" name="longi" placeholder="Enter Pincode" />
+            <br><br>
+            <label for="City">City:</label>
+            <input list="City" name="City" placeholder="Select City" />
+            <datalist id="City">
+              <option value="Pune"></option>
+              <option value="Mumbai"></option>
+              <option value="Bangluru"></option>
+              <option value="Chennai"></option>
+              <option value="Hyderabad"></option>
+              <option value="Gurgao"></option>
+              <option value="Delhi"></option>
+              <option value="Kolkata"></option>
+            </datalist>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="longi" placeholder="Enter Email" />
+            <br><br>
+            <label for="Currency">Currency:</label>
+            <input list="Currency" name="Currency" placeholder="Select Currency" />
+            <datalist id="Currency">
+              <option value="Rupees"></option>
+              <option value="Dollar"></option>
+              <option value="Euro"></option>
+              <option value="Taka"></option>
+              <option value="Pound"></option>
+              <option value="Yuan"></option>
+              <option value="Rubel"></option>
+              <option value="Lira"></option>
+            </datalist>
+          </div>
+        </div>
+        <br><br>
+        <input type="file">
+      </form>
+    <div class="second">
+        <h2>Contact Person Details</h2>
+        <hr>&nbsp;
+        <form>
+          <div class="second-box">
+            <div>
+                <label for="name" class="name-color">Name:</label>
+                <input type="text" placeholder="Enter Name" name="name">
+            </div>
+            <div>
+                <label for="mobile">Mobile:</label>
+                <input type="number" placeholder="Enter Mobile no" name="name">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Enter Email" name="email">
+            </div>
+           </div>
+           <br><br>
+            <div class="third-box">
+            <div>
+                <label for="department">Department:</label>
+                <input type="text" placeholder="Enter Department" name="department">
+            </div>
+            <div>
+                <label for="designation">Designation:</label>
+                <input type="text" placeholder="Enter Designation" name="designation">
+            </div>
+            <div>
+                <button class="add-button">+ Add</button>
+                <button class="cancle-button">Cancel</button>
+            </div>
+          </div>
+        </form>&nbsp;
+        <div class="row-box">
+            <p class="box-text">No Rows To Show</p>
+        </div>
+        <button class="save-button">Save</button>
+        <button class="cancle-button">Cancel</button>
+    </div>
+</div>
+</body>
+</html>
